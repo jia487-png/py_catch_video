@@ -1,7 +1,3 @@
-# py_catch_video
-爬取编程E学网视频
-
-~~~~
 import requests          # 导入requests模块
 import re                # 导入re模块
 # 定义视频播放页面的url
@@ -19,4 +15,3 @@ if response.status_code==200:   # 判断请求成功后
         file =open('java视频.mp4','wb')    # 创建open对象
         file.write(data)                   # 写入数据
         file.close()                       # 关闭
-~~~~
